@@ -1,12 +1,12 @@
-const ESDark = {
+const ESLight = {
     50: '#e3e6e8',
     100: '#bac0c5',
     200: '#8c969f',
     300: '#5e6c78',
     400: '#3c4d5b',
-    500: '#E75E79',
+    500: '#2196F3',
     600: '#162838',
-    700: '#122230',
+    700: '#2196F3',
     800: '#0e1c28',
     900: '#08111b',
     A100: '#5b9aff',
@@ -15,4 +15,4 @@ const ESDark = {
     A700: '#0054da',
 };
 
-export default ESDark;
+export default ESLight;
