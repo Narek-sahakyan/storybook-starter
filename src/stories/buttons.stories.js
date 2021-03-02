@@ -1,24 +1,39 @@
-import Button from '../components/Button';
+import Button from "../components/Button";
 
 const obj = {
-    title: 'Buttons',
-    component: Button,
+  title: "Buttons",
+  component: Button,
 };
 
 export default obj;
 
 export const Small = () => (
-    <Button size='small' color='primary' variant='contained'>
-        SMALL
+  <div>
+    <Button size="small" color="primary" variant="contained">
+      Small
     </Button>
+    <Button size="small" color="primary" variant="outlined">
+      Small
+    </Button>
+  </div>
 );
 export const Medium = () => (
-    <Button size='medium' color='primary' variant='contained'>
-        MEDIUM
+  <div>
+    <Button size="medium" color="primary" variant="contained">
+      Medium
     </Button>
+    <Button size="medium" color="primary" variant="outlined">
+      Medium
+    </Button>
+  </div>
 );
 export const Large = () => (
-    <Button size='large' color='primary' variant='contained'>
-        LARGE
+  <div>
+    <Button size="large" color="primary" variant="contained">
+      large
     </Button>
+    <Button size="large" color="primary" variant="outlined">
+      large
+    </Button>
+  </div>
 );
